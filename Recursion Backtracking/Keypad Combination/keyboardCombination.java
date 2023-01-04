@@ -21,7 +21,7 @@ public class keyboardCombination {
             char c=getGlobalCode.charAt(i);
 
             for(String s:storeData){
-                finalResult.add(c+s);   //carteson of 5 X 78
+                finalResult.add(c+s);   //cartesian of 5 X 78
             }
         }
         return finalResult;
